@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.conta{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+.faq-answer{
+    margin: 0 10px;
+}
+.faq-question{
+    font-weight: bolder;
+}
+.button{
+    background-color: purple;
+    color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.hidden{
+    display: none;
+}
